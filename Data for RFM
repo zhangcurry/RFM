@@ -1,0 +1,16 @@
+import pandas as pd
+import numpy as np
+# 数据导入
+df3=pd.read_csv("/2018_3_road_merge_dict.csv",encoding="gbk")
+df4=pd.read_csv("/2018_4_road_merge_dict.csv",encoding="gbk")
+df5=pd.read_csv("/2018_5_road_merge_dict.csv",encoding="gbk")
+df6=pd.read_csv("/2018_6_road_merge_dict.csv",encoding="gbk")
+df7=pd.read_csv("/2018_7_road_merge_dict.csv",encoding="gbk")
+df8=pd.read_csv("/2018_8_road_merge_dict.csv",encoding="gbk")
+df9=pd.read_csv("/2018_9_road_merge_dict.csv",encoding="gbk")
+df10=pd.read_csv("/2018_10_road_merge_dict.csv",encoding="gbk")
+df11=pd.read_csv("/2018_11_road_merge_dict.csv",encoding="gbk")
+df12=pd.read_csv("/2018_12_road_merge_dict.csv",encoding="gbk")
+df13=pd.read_csv(/2019_1_road_merge_dict.csv",encoding="gbk")
+datalist=[df13,df8,df9,df10,df11,df12]
+datalist.head()
